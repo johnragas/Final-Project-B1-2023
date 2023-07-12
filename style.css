@@ -1,9 +1,22 @@
-.adobe-text {
-    font-weight: 700;
-}
-
 body {
     background: #eeeeee;
-}
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    }    
 
+main {
+    flex: 1 0 auto;
+    }
 
+.socials a:hover i {
+    transform: scale(1.2);
+    }
+.socials a i {
+    padding: 5px;
+    }
+
+.adobe-text {
+    font-weight: 700;
+    }
+    
