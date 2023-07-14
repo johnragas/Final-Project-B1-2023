@@ -1,22 +1,56 @@
+* {
+    font-family: 'poppins', sans-serif;
+}
 body {
     background: #eeeeee;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    }    
+}    
 
 main {
     flex: 1 0 auto;
-    }
+}
 
 .socials a:hover i {
     transform: scale(1.2);
-    }
+}
 .socials a i {
     padding: 5px;
-    }
+}
 
 .adobe-text {
     font-weight: 700;
-    }
-    
+}
+
+.scaling-element {
+    transition: transform 0.3s ease-in-out;
+}
+
+.scaling-element:hover {
+    transform: scale(1.2);
+}
+
+.cart {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-icon {
+    display: inline-block;
+    background-color: #424242;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cart-count {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #424242;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+}

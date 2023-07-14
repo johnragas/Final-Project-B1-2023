@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Materialized Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Custom CSS -->
@@ -30,7 +32,10 @@
                         <a href="#" class="brand-logo">
                             <img src="images/TP Logo -WHITE.png" width="110">
                         </a>
-                        <a target="_blank" href="shippingcart.html"><i class="waves-effect material-icons right">shopping_cart</i></a>
+                        <div class="cart right">
+                            <a href="shoppingcart.html"><span class="cart-icon"><i class="material-icons">shopping_cart</i></span>
+                            <span class="cart-count">0</span></a>
+                        </div>
                         <a href="#" data-target="slide-out" class="sidenav-trigger right">
                             <i class="material-icons">menu</i>
                         </a>
@@ -80,9 +85,12 @@
             </li>
             <div class="divider"></div>
             <br><br><br>
-            <a target="_blank" href="https://www.facebook.com/tipidityclothingbyjandr"><i class="fa-brands fa-facebook small black-text"></i></a>
-            <a target="_blank" href="https://www.instagram.com/socialsbyjohn/"><i class="fa-brands fa-instagram small black-text"></i></a>
-            <a target="_blank" href="https://www.tiktok.com/@socialsbyjohn"><i class="fa-brands fa-tiktok small black-text"></i></a>
+            <div class="center">
+                <h5>Follow Us</h5><br>
+                <a target="_blank" href="https://www.facebook.com/tipidityclothingbyjandr"><i class="fa-brands fa-facebook small black-text"></i></a>
+                <a target="_blank" href="https://www.instagram.com/socialsbyjohn/"><i class="fa-brands fa-instagram small black-text"></i></a>
+                <a target="_blank" href="https://www.tiktok.com/@socialsbyjohn"><i class="fa-brands fa-tiktok small black-text"></i></a>
+            </div>
         </ul>
         <!-- Dropdown Structure for Sidenav -->
         <ul id="dropdown-sidenav" class="dropdown-content">
@@ -111,7 +119,7 @@
                 <div class="row">
                     <div class="col s12 m6 l4">
                         <div class="card hoverable">
-                            <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-image">
                                 <img src="images/DARK GRAY - L.png">
                             </div>
                             <div class="card-content">
@@ -119,13 +127,13 @@
                                 <p class="grey-text text-darken-4 adobe-text">Php 199.00</p>
                             </div>
                             <div class="card-action center-align">
-                                <p><a class="waves-effect waves-light red btn modal-trigger hoverable" href="#modal1">View Item</a></p>
+                                <p><a class="scaling-element waves-effect waves-light red btn modal-trigger hoverable" href="#modal1">View Item</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
                         <div class="card hoverable">
-                            <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-image">
                                 <img src="images/VIOLET STRIPES.png">
                             </div>
                             <div class="card-content">
@@ -133,13 +141,13 @@
                                 <p class="grey-text text-darken-4 adobe-text">Php 249.00</p>
                             </div>
                             <div class="card-action center-align">
-                                <p><a class="waves-effect waves-light red btn modal-trigger hoverable" href="#modal2">View Item</a></p>
+                                <p><a class="scaling-element waves-effect waves-light red btn modal-trigger hoverable" href="#modal2">View Item</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
                         <div class="card hoverable">
-                            <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-image">
                                 <img src="images/CHOCO - L.png">
                             </div>
                             <div class="card-content">
@@ -147,13 +155,13 @@
                                 <p class="grey-text text-darken-4 adobe-text">Php 299.00</p>
                             </div>
                             <div class="card-action center-align">
-                                <p><a class="waves-effect waves-light red btn modal-trigger hoverable" href="#modal3">View Item</a></p>
+                                <p><a class="scaling-element waves-effect waves-light red btn modal-trigger hoverable" href="#modal3">View Item</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
                         <div class="card hoverable">
-                            <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-image">
                                 <img src="images/BARNEY.png">
                             </div>
                             <div class="card-content">
@@ -161,13 +169,13 @@
                                 <p class="grey-text text-darken-4 adobe-text">Php 349.00</p>
                             </div>
                             <div class="card-action center-align">
-                                <p><a class="waves-effect waves-light red btn modal-trigger hoverable" href="#modal4">View Item</a></p>
+                                <p><a class="scaling-element waves-effect waves-light red btn modal-trigger hoverable" href="#modal4">View Item</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
                         <div class="card hoverable">
-                            <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-image">
                                 <img src="images/RED.png">
                             </div>
                             <div class="card-content">
@@ -175,13 +183,13 @@
                                 <p class="grey-text text-darken-4 adobe-text">Php 379.00</p>
                             </div>
                             <div class="card-action center-align">
-                                <p><a class="waves-effect waves-light red btn modal-trigger hoverable" href="#modal5">View Item</a></p>
+                                <p><a class="scaling-element waves-effect waves-light red btn modal-trigger hoverable" href="#modal5">View Item</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
                         <div class="card hoverable">
-                            <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-image">
                                 <img src="images/RUST.png">
                             </div>
                             <div class="card-content">
@@ -189,13 +197,13 @@
                                 <p class="grey-text text-darken-4 adobe-text">Php 399.00</p>
                             </div>
                             <div class="card-action center-align">
-                                <p><a class="waves-effect waves-light red btn modal-trigger hoverable" href="#modal6">View Item</a></p>
+                                <p><a class="scaling-element waves-effect waves-light red btn modal-trigger hoverable" href="#modal6">View Item</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
                         <div class="card hoverable">
-                            <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-image">
                                 <img src="images/ACID BLUE.png">
                             </div>
                             <div class="card-content">
@@ -203,13 +211,13 @@
                                 <p class="grey-text text-darken-4 adobe-text">Php 499.00</p>
                             </div>
                             <div class="card-action center-align">
-                                <p><a class="waves-effect waves-light red btn modal-trigger hoverable" href="#modal7">View Item</a></p>
+                                <p><a class="scaling-element waves-effect waves-light red btn modal-trigger hoverable" href="#modal7">View Item</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
                         <div class="card hoverable">
-                            <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-image">
                                 <img src="images/RED x BLACK.png">
                             </div>
                             <div class="card-content">
@@ -217,13 +225,13 @@
                                 <p class="grey-text text-darken-4 adobe-text">Php 269.00</p>
                             </div>
                             <div class="card-action center-align">
-                                <p><a class="waves-effect waves-light red btn modal-trigger hoverable" href="#modal8">View Item</a></p>
+                                <p><a class="scaling-element waves-effect waves-light red btn modal-trigger hoverable" href="#modal8">View Item</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m6 l4">
                         <div class="card hoverable">
-                            <div class="card-image waves-effect waves-block waves-light">
+                            <div class="card-image">
                                 <img src="images/BLACK - STRING BAG (2) (1).png">
                             </div>
                             <div class="card-content">
@@ -231,7 +239,7 @@
                                 <p class="grey-text text-darken-4 adobe-text">Php 199.00</p>
                             </div>
                             <div class="card-action center-align">
-                                <p><a class="waves-effect waves-light red btn modal-trigger hoverable" href="#modal9">View Item</a></p>
+                                <p><a class="scaling-element waves-effect waves-light red btn modal-trigger hoverable" href="#modal9">View Item</a></p>
                             </div>
                         </div>    
                     </div>
@@ -273,9 +281,9 @@
                             </select>
                         </div>
                     </div>
-                    <div>
-                        <p class="card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="waves-effect waves-light red btn hoverable">Add to Cart</a></p>
-                        <p class="card-action center-align"><a href="shippingcart.html" class="waves-effect waves-light btn hoverable">Buy Now</a></p>
+                    <div">
+                        <p class="cart-value card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="scaling-element waves-effect waves-light red btn hoverable">Add to Cart</a></p>
+                        <p class="card-action center-align"><a href="shippingcart.html" class="scaling-element waves-effect waves-light btn hoverable">Buy Now</a></p>
                     </div>
                 </div>
             </div>
@@ -315,8 +323,8 @@
                         </div>
                     </div>
                     <div>
-                        <p class="card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="waves-effect waves-light red btn hoverable">Add to Cart</a></p>
-                        <p class="card-action center-align"><a href="shippingcart.html" class="waves-effect waves-light btn hoverable">Buy Now</a></p>
+                        <p class="cart-value1 card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="scaling-element waves-effect waves-light red btn hoverable">Add to Cart</a></p>
+                        <p class="card-action center-align"><a href="shippingcart.html" class="scaling-element waves-effect waves-light btn hoverable">Buy Now</a></p>
                     </div>
                 </div>
             </div>
@@ -356,8 +364,8 @@
                         </div>
                     </div>
                     <div>
-                        <p class="card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="waves-effect waves-light red btn hoverable">Add to Cart</a></p>
-                        <p class="card-action center-align"><a href="shippingcart.html" class="waves-effect waves-light btn hoverable">Buy Now</a></p>
+                        <p class="cart-value card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="scaling-element waves-effect waves-light red btn hoverable">Add to Cart</a></p>
+                        <p class="card-action center-align"><a href="shippingcart.html" class="scaling-element waves-effect waves-light btn hoverable">Buy Now</a></p>
                     </div>
                 </div>
             </div>
@@ -398,8 +406,8 @@
                         </div>
                     </div>
                     <div>
-                        <p class="card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="waves-effect waves-light red btn hoverable">Add to Cart</a></p>
-                        <p class="card-action center-align"><a href="shippingcart.html" class="waves-effect waves-light btn hoverable">Buy Now</a></p>
+                        <p class="cart-value card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="scaling-element waves-effect waves-light red btn hoverable">Add to Cart</a></p>
+                        <p class="card-action center-align"><a href="shippingcart.html" class="scaling-element waves-effect waves-light btn hoverable">Buy Now</a></p>
                     </div>
                 </div>
             </div>
@@ -440,8 +448,8 @@
                         </div>
                     </div>
                     <div>
-                        <p class="card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="waves-effect waves-light red btn hoverable">Add to Cart</a></p>
-                        <p class="card-action center-align"><a href="shippingcart.html" class="waves-effect waves-light btn hoverable">Buy Now</a></p>
+                        <p class="cart-value card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="scaling-element waves-effect waves-light red btn hoverable">Add to Cart</a></p>
+                        <p class="card-action center-align"><a href="shippingcart.html" class="scaling-element waves-effect waves-light btn hoverable">Buy Now</a></p>
                     </div>
                 </div>
             </div>
@@ -481,8 +489,8 @@
                         </div>
                     </div>
                     <div>
-                        <p class="card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="waves-effect waves-light red btn hoverable">Add to Cart</a></p>
-                        <p class="card-action center-align"><a href="shippingcart.html" class="waves-effect waves-light btn hoverable">Buy Now</a></p>
+                        <p class="cart-value card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="scaling-element waves-effect waves-light red btn hoverable">Add to Cart</a></p>
+                        <p class="card-action center-align"><a href="shippingcart.html" class="scaling-element waves-effect waves-light btn hoverable">Buy Now</a></p>
                     </div>
                 </div>
             </div>
@@ -522,8 +530,8 @@
                         </div>
                     </div>
                     <div>
-                        <p class="card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="waves-effect waves-light red btn hoverable">Add to Cart</a></p>
-                        <p class="card-action center-align"><a href="shippingcart.html" class="waves-effect waves-light btn hoverable">Buy Now</a></p>
+                        <p class="cart-value card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="scaling-element waves-effect waves-light red btn hoverable">Add to Cart</a></p>
+                        <p class="card-action center-align"><a href="shippingcart.html" class="scaling-element waves-effect waves-light btn hoverable">Buy Now</a></p>
                     </div>
                 </div>
             </div>
@@ -555,8 +563,8 @@
                         </div>
                     </div>
                     <div>
-                        <p class="card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="waves-effect waves-light red btn hoverable">Add to Cart</a></p>
-                        <p class="card-action center-align"><a href="shippingcart.html" class="waves-effect waves-light btn hoverable">Buy Now</a></p>
+                        <p class="cart-value card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="scaling-element waves-effect waves-light red btn hoverable">Add to Cart</a></p>
+                        <p class="card-action center-align"><a href="shippingcart.html" class="scaling-element waves-effect waves-light btn hoverable">Buy Now</a></p>
                     </div>
                 </div>
             </div>
@@ -588,16 +596,26 @@
                         </div>
                     </div>
                     <div>
-                        <p class="card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="waves-effect waves-light red btn hoverable">Add to Cart</a></p>
-                        <p class="card-action center-align"><a href="shippingcart.html" class="waves-effect waves-light btn hoverable">Buy Now</a></p>
+                        <p class="cart-value card-action center-align"><a onclick="M.toast({html: 'Item added to your cart'})" class="scaling-element waves-effect waves-light red btn hoverable">Add to Cart</a></p>
+                        <p class="card-action center-align"><a href="shippingcart.html" class="scaling-element waves-effect waves-light btn hoverable">Buy Now</a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <ul class="pagination center">
+        <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+        <li class="active red"><a href="#!">1</a></li>
+        <li class="waves-effect"><a href="#!">2</a></li>
+        <li class="waves-effect"><a href="#!">3</a></li>
+        <li class="waves-effect"><a href="#!">4</a></li>
+        <li class="waves-effect"><a href="#!">5</a></li>
+        <li class="waves-effect"><a href="#!">...</a></li>
+        <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+    </ul>
     </main>
-    <div class="fixed-action-btn btn-floating btn-large deep-purple accent-3 hoverable">
-        <a target="_blank" href="https://m.me/tipidityclothingbyjandr"><i class="fa-brands fa-facebook-messenger"></i></a>
+    <div class="scaling-element fixed-action-btn btn-floating btn-large deep-purple accent-3 hoverable">
+        <a class="tooltipped" data-position="left" data-tooltip="Live Chat" target="_blank" href="https://m.me/tipidityclothingbyjandr"><i class="fa-brands fa-facebook-messenger"></i></a>
     </div>
 <!-- Footer -->
 <footer class="page-footer grey darken-3">
@@ -606,7 +624,7 @@
             <h5 class="white-text">About Us</h5>
             <p>The term "TIPIDITY" was derived from the words “TIPID & QUALITY” which also represents the company's goal: To provide high quality products at the lowest possible price.</p>
             <br>
-            <h5 class="white-text">Visit our Official Page</h5>
+            <h5 class="white-text">Visit our Page</h5>
             <a target="_blank" href="https://www.facebook.com/tipidityclothingbyjandr"><i class="fa-brands fa-facebook small grey-text"></i></a>
             <a target="_blank" href="https://www.instagram.com/socialsbyjohn/"><i class="fa-brands fa-instagram small grey-text"></i></a>
             <a target="_blank" href="https://www.tiktok.com/@socialsbyjohn"><i class="fa-brands fa-tiktok small grey-text"></i></a>
@@ -618,7 +636,7 @@
             <div class="input-field inline">
                 <input id="email_inline" type="email" class="validate white-text">
                 <label for="email_inline">Enter your email</label>
-                <a onclick="M.toast({html: 'Thank you for subscribing!'})" class="btn waves-effect waves-light grey darken-1 hoverable" type="submit" name="action">Subscribe<i class="material-icons right">send</i></a>
+                <a onclick="M.toast({html: 'Thank you for subscribing!'})" class="scaling-element btn waves-effect waves-light grey darken-1 hoverable" type="submit" name="action">Subscribe<i class="material-icons right">send</i></a>
             </div>
         </div>
     </div>
@@ -637,25 +655,18 @@
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+    <script src="addtocart.js"></script>    
+
     <script>
-        function addToCart() {
-          // Get the selected quantity
-            const quantity = document.getElementById('quantity').value;
-    
-          // Add your logic to add the product and quantity to the cart
-            console.log(`Added ${quantity} product(s) to cart.`);
-        }
+        $(document).ready(function(){
+
+        });
     </script>
 
     <script>
         $(document).ready(function(){
-    // Init Materialbox
-            $('.materialboxed').materialbox({
-                inDuration: 500,
-                outDuration: 500
-            });
     // Init Slider
-            $('.slider').slider({
+    $('.slider').slider({
                 indicators: true,
                 height: 500,
                 duration: 400,
@@ -665,15 +676,8 @@
             $('.fixed-action-btn').floatingActionButton({
                 toolbarEnabled: true
             });
-        });
-    </script>
-
-    <script>
-        $(document).ready(function(){
     // dropdown init
             $('.dropdown-trigger').dropdown();
-    // Slider Init
-            $('.slider').slider();
     // sidenav init
             $('.sidenav').sidenav();
     // Parallax
@@ -682,10 +686,8 @@
             $('.modal').modal();
     // Select
             $('select').formSelect();
-    // Floating Buttons
-            $('.fixed-action-btn').floatingActionButton();
-    // Scrollspy
-            $('.scrollspy').scrollSpy();
+    // Tooltip
+            $('.tooltipped').tooltip();
     });
     </script>
 </body>
